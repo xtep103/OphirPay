@@ -25,7 +25,6 @@ yarn-error.log*
 # local env (use .env.example as template)
 # .env.testnet is a deployment artifact written by scripts/deploy-testnet.mjs
 # and may contain private key material — never commit it.
-.env
 .env*.local
 .env.testnet
 
@@ -41,7 +40,6 @@ prisma/dev.db
 prisma/dev.db-journal
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -70,3 +68,4 @@ contracts/**/spec/target/
 # Playwright
 playwright-report/
 test-results/
+config.bat
