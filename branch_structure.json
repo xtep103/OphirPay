@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/count-up-stats",
+    "feat/payments-pagination",
+    "fix/badge-color-contrast",
+    "fix/modal-back-button",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/count-up-stats": "main",
+    "feat/payments-pagination": "main",
+    "fix/badge-color-contrast": "main",
+    "fix/modal-back-button": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/count-up-stats",
+    "feat/payments-pagination",
+    "fix/badge-color-contrast",
+    "fix/modal-back-button",
+    "origin"
+  ]
+}
